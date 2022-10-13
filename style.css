@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url('/wallpaper-pixel-art.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+
+}
+
+h1 {
+  padding-top: 30px;
+  font-size: 60px;
+  text-align: center;
+}
+
+main {
+  justify-content: center;
+}
+
+#color-palette {
+  margin-top: 20px;
+  display: flex;
+  gap: 8px;
+}
+
+.color {
+  height: 35px;
+  width: 35px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#button-random-color {
+  border-radius: 5px;
+}
+
+
+#pixel-board {
+  display: grid;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+section {
+  justify-content: center;
+}
+
+#clear-board {
+  border-radius: 5px;
+
+}
+
+#div {
+  text-align: center;
+  padding-top: 15px;
+}
+
+#div1 {
+  text-align: center;
+  margin: 20px;
+}
+
+#generate-board {
+  border-radius: 5px;
+}
